@@ -1,6 +1,8 @@
 # QSec Mission 6
 Queue Framework class library to be used in .NET Core projects. Solves [mission 6](https://github.com/krist00fer/qsec/blob/master/missions/mission-006.md) of [qsec](https://github.com/krist00fer/qsec). Written in .NET Core v2.
 
+[![Build Status](https://ricardofiel2.visualstudio.com/qsec-mission6/_apis/build/status/theplastictoy.qsec-mission6)](https://ricardofiel2.visualstudio.com/qsec-mission6/_build/latest?definitionId=1)
+
 ## Requirements
 
 * Library should be easy to use, compile and contribute to
