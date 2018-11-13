@@ -13,7 +13,9 @@ Queue Framework class library to be used in .NET Core projects. Solves [mission 
 
 We welcome contributions through pull requests. Please read our [guidelines](CONTRIB.md) before submitting. 
 
-Backlog is listed in this repo's [issues](https://github.com/theplastictoy/qsec-mission6/issues).
+Backlog is listed in this repo's [issues](https://github.com/theplastictoy/qsec-mission6/issues). 
+
+**Please don't submit a new version (eg: 2.1) before the previous one (2.0) is complete.**
 
 ## License
 

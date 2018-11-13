@@ -1,9 +1,12 @@
 # Contributing
 
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. 
+We welcome contributions through pull requests. Read this document before submitting.
 
-Please note we have a code of conduct, please follow it in all your interactions with the project.
+Backlog is listed in this repo's [issues](https://github.com/theplastictoy/qsec-mission6/issues). 
+
+**Please don't submit a new version (eg: 2.1) before the previous one (2.0) is complete.**
+
+Also note we have a code of conduct, please follow it in all your interactions with the project.
 
 ## Coding Guidelines
 
