@@ -12,7 +12,7 @@ namespace qsec.mission6
         {
             var startTimeSpan = TimeSpan.Zero;
             
-
+            // Should be thread safe..
             var timer = new System.Threading.Timer((e) =>
             {
                 queue.Enqueue(item);
