@@ -5,7 +5,7 @@ using System.Text;
 
 namespace qsec.mission6
 {
-    class DelayedQueue<T> 
+    public class DelayedQueue<T> 
     {
         ConcurrentQueue<T> queue = new ConcurrentQueue<T>();
         public void AddAsync(T item, TimeSpan inTime)
@@ -18,6 +18,21 @@ namespace qsec.mission6
                 queue.Enqueue(item);
             }, null, startTimeSpan, inTime);
 
+        }
+
+        public int QueueSize 
+        {
+            get
+            {
+                return queue.Count;
+            }
+        }
+
+        public T DeQueue()
+        {
+            T item = default(T);
+            var result = queue.TryDequeue(out item);
+            return item;
         }
     }
 }
